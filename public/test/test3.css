@@ -1,0 +1,72 @@
+body {
+	font-family: SourceSansPro, Helvetica, Arial, 'Meiryo UI', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.fa-xs {
+	line-height: 14px;
+	font-size: 4px;
+	padding-left: 8px;
+}
+
+#wrapper {
+	display: flex;
+}
+
+#sidebar {
+	left: 0;
+	height: 100%;
+	background-color: #515151;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	overflow-x: hidden;
+}
+
+#content {
+	width: calc(100% - 49px - 192px);
+	height: 100%;
+	flex: 1;
+}
+
+#config {
+	right: 0;
+	width: 192px/*6px*/;
+	height: 100%;
+	background-color: #515151;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	overflow-x: hidden;
+	transition-duration: 0.5s;
+}
+
+/*#config:hover {
+	width: 192px;
+}*/
+
+#sidebar > *,
+#config > * {
+	padding: 12px 14px 12px 14px;
+	text-decoration: none;
+
+	color: #fff;
+	display: block;
+}
+
+#sidebar a:hover,
+#config a:hover {
+	background-color: #333;
+}
+
+#sidebar a.selected,
+#config a.selected {
+	background-color: #333;
+	color: #8fddff;
+}

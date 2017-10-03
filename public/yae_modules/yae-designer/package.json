@@ -1,0 +1,7 @@
+{
+	"id": "yae-designer",
+	"description": "YAE - Yet Another Editor designer module",
+	"version": "0.0.1",
+	"scripts": ["yae-designer.js", "image-filetypes.js", "custom-filetypes.js", "colorpicker.js"],
+	"require": ["yae-core", "p5js"]
+}

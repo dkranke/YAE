@@ -1,0 +1,16 @@
+{
+	"name": "yae",
+	"version": "1.0.0",
+	"description": "YAE - Yet Another Editor",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dkranke/YAE.git"
+	},
+	"author": "dkranke",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dkranke/YAE/issues"
+	},
+	"homepage": "https://github.com/dkranke/YAE#readme"
+}

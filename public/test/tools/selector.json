@@ -1,0 +1,5 @@
+{
+	"name": "Select",
+	"display": ["fa-arrows"],
+	"event": ["mouseDown": "fn$"]
+}

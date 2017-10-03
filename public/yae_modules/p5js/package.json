@@ -1,0 +1,7 @@
+{
+	"id": "p5js",
+	"description": "p5.js module",
+	"version": "0.5.11",
+	"scripts": ["p5.js", "p5.dom.js", "p5.sound.js", "p5.shadow.js"],
+	"require": []
+}

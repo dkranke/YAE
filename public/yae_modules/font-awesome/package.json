@@ -1,0 +1,7 @@
+{
+	"id": "fontawesome",
+	"description": "Font Awesome module",
+	"version": "4.7.0",
+	"scripts": ["font-awesome.js"],
+	"require": []
+}
