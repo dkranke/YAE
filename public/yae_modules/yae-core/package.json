@@ -2,6 +2,6 @@
 	"id": "yae-core",
 	"description": "YAE - Yet Another Editor core module",
 	"version": "0.0.1",
-	"scripts": ["yae-core.js", "menu.js", "filehandler.js"],
+	"scripts": ["menu.js", "yae-core.js", "filehandler.js"],
 	"require": []
 }
