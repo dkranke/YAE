@@ -20,7 +20,6 @@ yae.import = function (moduleName) {
 			yae.installedModules.push(moduleName);
 		} else {
 			console.log("ERROR: Can't import / find module '" + moduleName + "'", err);
-			console.log("ERROR: Can't import / find module '" + moduleName + "'", err);
 		}
 	});
 }
